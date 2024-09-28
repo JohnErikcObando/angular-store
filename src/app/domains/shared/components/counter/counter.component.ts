@@ -1,13 +1,13 @@
 import { Component, Input, signal, SimpleChanges } from '@angular/core';
 
 import { ProductComponent } from '../../../products/components/product/product.component';
-import { AboutComponent } from '../../../info/pages/about/about.component';
+
 import { sign } from 'crypto';
 
 @Component({
   selector: 'app-counter',
   standalone: true,
-  imports: [ProductComponent, AboutComponent],
+  imports: [],
   templateUrl: './counter.component.html',
   styleUrl: './counter.component.css',
 })
